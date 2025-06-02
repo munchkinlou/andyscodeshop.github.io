@@ -92,6 +92,7 @@
   text-shadow: 0 0 1px #e89f95;
   text-align: justify;
   z-index: 5;
+  margin: -20px 0px 80px 0px;
 }
 
 .wyvernt3_diag {
@@ -107,6 +108,7 @@
   color: #0A79C8;
   text-align: center;
   font-weight: bold;
+  margin: -110px 0 80px 0;
 }
 
 .wyvernt1_divider {
@@ -135,4 +137,14 @@
 @keyframes wyvernt3_blinkFade {
   0%, 100% { opacity: 0; }
   50% { opacity: 1; }
+}
+
+@media screen and (max-width: 1199px) {
+  .wyvernt3_infade video {
+    display: none;
+  }
+  
+  .wyvernt3_infade::after {
+    display: none;
+  }
 }
