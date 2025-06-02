@@ -29,10 +29,9 @@
   position: relative;
   min-height: 100px;
   padding: 40px;
-  margin: 0;
   z-index: 10;
-  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 40%, black);
-  mask-image: linear-gradient(to top, transparent 0%, black 30%, black 40%);
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 40%, black 100%);
+  mask-image: linear-gradient(to top, transparent 0%, black 40%, black 100%);
   overflow: hidden;
 }
 
@@ -49,8 +48,8 @@
 }
 
 .wyvernt3_infade video {
-  position: absolute;
-  top: 50%;
+  position: fixed;
+  top: 30%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
@@ -61,8 +60,8 @@
   object-fit: cover;
   animation: slowmotion 1s linear infinite;
   opacity: 0.8;
-  mask-image: linear-gradient(to top, black 60%, transparent 80%);
-  -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 80%);
+  mask-image: linear-gradient(to top, transparent 0%, black 40%, black 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 40%, black 100%);
 }
 
 @keyframes slowmotion {
