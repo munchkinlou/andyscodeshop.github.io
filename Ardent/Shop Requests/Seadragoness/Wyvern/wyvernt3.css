@@ -61,21 +61,16 @@
 
 .wyvernt3_infade video {
   position: absolute;
-  top: -20%;
+  bottom: 0px;
   left: 0;
   width: 100%;
-  height: 120%;
+  height: 800px;
   transform: scaleY(-1);
   z-index: -1;
   object-fit: cover;
-  animation: slowmotion 1s linear infinite;
   opacity: 0.8;
-  mask-image: linear-gradient(to top, black 60%, transparent 80%);
-  -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 80%);
-}
-
-@keyframes slowmotion {
-  from, to { animation-timing-function: linear; }
+  mask-image: linear-gradient(to top, black 50%, transparent 70%);
+  -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 70%);
 }
 
 .wyvernt3_incontainer {
