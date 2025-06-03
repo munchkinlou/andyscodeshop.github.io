@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
 
-
 .oatht1_wrap {
   position: relative;
   width: 700px;
@@ -178,4 +177,14 @@
   color: #12EAEA;
   font-weight: bold;
   margin:-20px 0 -20px 0;
+}
+
+@media (max-width: 1199px) {
+  .oatht1_gradborder, 
+  .oatht1_container, 
+  .oatht1_ingradborder, 
+  .oatht1_incontainer {
+    mask: none;
+    -webkit-mask: none;
+  }
 }
