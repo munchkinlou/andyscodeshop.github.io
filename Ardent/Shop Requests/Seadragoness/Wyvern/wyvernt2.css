@@ -159,7 +159,7 @@ box-shadow:
   text-shadow: 0 0 1px #e89f95;
   text-align: justify;
   z-index: 5;
-  margin: 0 0 20px 0;
+  margin: -20px 0 20px 0;
 }
 
 .wyvernt2_diag {
