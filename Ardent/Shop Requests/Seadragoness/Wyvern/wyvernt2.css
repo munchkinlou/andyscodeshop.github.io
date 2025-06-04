@@ -151,7 +151,7 @@ box-shadow:
   z-index: 4;
 }
 
-.wyvernt3_text {
+.wyvernt2_text {
   font-family: 'Quicksand';  
   font-size: 15px;
   color: #fff;
@@ -159,23 +159,23 @@ box-shadow:
   text-shadow: 0 0 1px #e89f95;
   text-align: justify;
   z-index: 5;
-  margin: 0 0 -120px 0;
+  margin: 0 0 20px 0;
 }
 
-.wyvernt3_diag {
+.wyvernt2_diag {
   font-family: 'Croissant One';
   font-size: 20px;
   color: #0A79C8;
   font-weight: bold;
 }
 
-.wyvernt3_speech {
+.wyvernt2_speech {
   font-family: 'Croissant One';
   font-size: 30px;
   color: #0A79C8;
   text-align: center;
   font-weight: bold;
-  margin: 0px 0 -240px 0;
+  margin: -10px 0 -120px 0;
 }
 
 .wyvernt2_divider {
