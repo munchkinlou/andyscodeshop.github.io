@@ -80,8 +80,8 @@ box-shadow:
   padding: 40px;
   margin: 0;
   z-index: 1;
-  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 50%, black);
-  mask-image: linear-gradient(to top, transparent 0%, black 40%, black 50%);
+  -webkit-mask-image: linear-gradient(to top, transparent 200px, black 300px);
+  mask-image: linear-gradient(to top, transparent 200px, black 300px);
   overflow: hidden;
   transform: scaleY(-1);
   border-radius: 20px;
@@ -111,10 +111,10 @@ box-shadow:
   transform: scaleY(-1);
   z-index: 2;
   object-fit: none;
-  object-position: center;
+  object-position: center 150px;
   opacity: 0.8;
-  mask-image: linear-gradient(to bottom, transparent 0%, transparent 30%, black 50%, black);
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, transparent 30%, black 50%, black);
+  mask-image: linear-gradient(to bottom, transparent 101.5px, black 151.5px);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 101.5px, black 151.5px);
 }
 
 .wyvernt2_ingradborder {
@@ -159,7 +159,7 @@ box-shadow:
   text-shadow: 0 0 1px #e89f95;
   text-align: justify;
   z-index: 5;
-  margin: -40px 0 0 0;
+  margin: -40px 0 20px 0;
 }
 
 .wyvernt3_diag {
@@ -175,7 +175,7 @@ box-shadow:
   color: #0A79C8;
   text-align: center;
   font-weight: bold;
-  margin: 0 0 -120px 0;
+  margin: -20px 0 -120px 0;
 }
 
 .wyvernt2_divider {
