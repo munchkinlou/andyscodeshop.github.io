@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
 @import url('https://fonts.cdnfonts.com/css/plainblack');
 
-.Oatht2_wrapper {
+.Oatht2_wrap {
 	position: relative;
   width: 100%;
   max-width: 700px;
@@ -181,24 +181,7 @@
   color: #12EAEA;
 }
 
-@media (max-width: 600px) {
-  .Oatht2_gradborder {
-    clip-path: none;
-  }
-  .Oatht2_container {
-    clip-path: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .Oatht2_overlaytitle,
-  .Oatht2_borderimg {
-    display: none;
-  }
-}
-
-
-@media (max-width: 700px) {
+@media (max-width: 1119px) {
   .Oatht2_gradborder {
     clip-path: none;
   }
@@ -209,9 +192,14 @@
     width: 100%;
   }
 
-  .Oatht2_overlaytitle,
+  .Oatht2_overlaytitle {
+    display: none !important;
+    line-height: 0.8;
+    overflow: visible;
+  }
+
   .Oatht2_borderimg {
-    display: none;
+    display: none !important;
   }
 
   .Oatht2_incontainer {
@@ -219,24 +207,3 @@
   }
 }
 
-
-@media (max-width: 1200px) {
-  .Oatht2_gradborder {
-    clip-path: none;
-  }
-  .Oatht2_container {
-    clip-path: none;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 100%;
-  }
-
-  .Oatht2_overlaytitle,
-  .Oatht2_borderimg {
-    display: none;
-  }
-
-  .Oatht2_incontainer {
-    margin: 10px 20px;
-  }
-}
