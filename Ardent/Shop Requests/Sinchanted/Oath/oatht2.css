@@ -181,7 +181,7 @@
   color: #12EAEA;
 }
 
-@media (max-width: 1999px) {
+@media (max-width: 1200px) {
   .Oatht2_gradborder {
     clip-path: none;
   }
