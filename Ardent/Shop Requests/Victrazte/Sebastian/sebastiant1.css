@@ -125,7 +125,11 @@
 
 @media (max-width: 1200px) {
   .sebastiant1_container::after,
-  .sebastiant1_title {
+  .sebastiant1_title,
+  .sebastiant1_text::before,
+  .sebastiant1_text::after {
     display: none;
   }
+}
+
 
