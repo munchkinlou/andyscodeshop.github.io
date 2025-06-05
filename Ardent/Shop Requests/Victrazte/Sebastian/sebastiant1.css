@@ -123,3 +123,9 @@
     background-repeat: no-repeat;
 }
 
+@media (max-width: 1200px) {
+  .sebastiant1_container::after,
+  .sebastiant1_title {
+    display: none;
+  }
+
