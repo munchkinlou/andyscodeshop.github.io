@@ -131,5 +131,8 @@
   .oliviert1_title {
     display: none;
   }
+  .oliviert1_border, .oliviert1_container {
+    border-radius: 0;
+  }
 }
 
