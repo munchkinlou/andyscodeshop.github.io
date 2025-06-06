@@ -64,25 +64,26 @@
   box-sizing: border-box;
   max-width: 600px;
   min-height: 400px;
-  padding: 50px 20px;
+  padding: 10px;
   overflow: visible;
   border-radius: 40px;
-  background-color: #3E2648;
+  background: #09060D url('12.jpg') no-repeat center/cover;
 }
 
 .kamarit1_incontainer::before {
   content: '';
   position: absolute;
-  top: 0px;
-  left: 10%;
-  width: 80%;
-  height: 100px;
-  background-image: url('https://ik.imagekit.io/arl59/Ardent/Shop%20Requests/Victrazte/Kamari/t1_border.png?updatedAt=1749165065316');
-  background-position: top center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('floral1.png'), url('floral2.png');
+  background-position: top left, right -30px bottom 0px;
+  background-size: 80px, 160px;
+  background-repeat: no-repeat, no-repeat;
   filter: drop-shadow(0 0 8px rgba(163, 59, 191, 0.7));
-  opacity: 0.8;
+  opacity: 0.6;
+  pointer-events: none;
 }
 
 .kamarit1_title {
@@ -105,26 +106,11 @@
 	font-size:14px;
 	line-height:1.2;
 	text-align:justify;
-	margin: 50px 30px 0 30px;
+	margin: 40px 75px 40px 75px;
 	padding: 0 20px;
-}
-
-.kamarit1_text::before,
-.kamarit1_text::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: linear-gradient(to bottom, transparent, #DAA520, transparent);
-}
-
-.kamarit1_text::before {
-  left: 0;
-}
-
-.kamarit1_text::after {
-  right: 0;
+	border-style: solid;
+	border-width: 0 2px;
+	border-image: linear-gradient(to bottom, transparent, rgba(154, 96, 181, 0.8), rgba(255, 255, 255, 0.8), rgba(154, 96, 181, 0.8), transparent) 1;
 }
 
 .kamarit1_diag {
@@ -138,9 +124,9 @@
 
 .kamarit1_speech {
     font-family: 'Send Flowers';
-	font-size: 50px;
+	font-size: 40px;
   	text-align: center;
- 	margin: -45px 0 -80px 0;
+ 	margin: -100px 0 -40px 0;
 	background: linear-gradient(to bottom, #F0E68C, #DAA520, #F0E68C);
     -webkit-background-clip: text;
     background-clip: text;
@@ -168,7 +154,7 @@
   background: linear-gradient(
     to right,
     transparent 0%,
-    white 50%,
+    transparent 50%,
     transparent 100%
   );
 }
@@ -279,13 +265,16 @@
 @media (max-width: 1200px) {
   .kamarit1_incontainer::before,
   .kamarit1_container::after,
-  .kamarit1_title,
-  .kamarit1_text::before,
-  .kamarit1_text::after {
+  .kamarit1_title {
     display: none;
   }
+  .kamarit1_incontainer {
+    background-image: none;
+  }
+  .kamarit1_text {
+    border-style: none;
+  }
 }
-
 
 
 
