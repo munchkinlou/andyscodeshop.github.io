@@ -67,7 +67,7 @@
   padding: 10px;
   overflow: visible;
   border-radius: 40px;
-  background: #09060D url('12.jpg') no-repeat center/cover;
+  background: #09060D url('https://ik.imagekit.io/arl59/Ardent/Shop%20Requests/Victrazte/Kamari/t1_smoke.jpg?updatedAt=1749192116975') no-repeat center/cover;
 }
 
 .kamarit1_incontainer::before {
@@ -77,7 +77,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('floral1.png'), url('floral2.png');
+  background-image: url('https://ik.imagekit.io/arl59/Ardent/Shop%20Requests/Victrazte/Kamari/floral1.png?updatedAt=1749192088976'), url('https://ik.imagekit.io/arl59/Ardent/Shop%20Requests/Victrazte/Kamari/floral2.png?updatedAt=1749192094741');
   background-position: top left, right -30px bottom 0px;
   background-size: 80px, 160px;
   background-repeat: no-repeat, no-repeat;
@@ -275,6 +275,7 @@
     border-style: none;
   }
 }
+
 
 
 
