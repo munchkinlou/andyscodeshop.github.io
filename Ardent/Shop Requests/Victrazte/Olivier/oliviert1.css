@@ -23,7 +23,7 @@
   z-index: 1;
 }
 
-.oliviert1_popout-overlay {
+.oliviert1_overlay {
   position: absolute;
   top: -80px;
   left: -114px;
@@ -35,7 +35,7 @@
   z-index: 2;
 }
 
-.oliviert1_inshadow, .oliviert1_inborder, .oliviert1_incontainer {
+.oliviert1_inborder, .oliviert1_incontainer {
   box-sizing: border-box;
   position: relative;
   mask: 
@@ -59,6 +59,9 @@
 	padding: 3px;
 	background: linear-gradient(180deg, #A5854C, #F2D49B, #A5854C);
 	z-index: 2;
+  width: 98%;
+  margin: 0 auto;
+  isolation: isolate;
 }
 
 .oliviert1_incontainer {
@@ -118,7 +121,7 @@
 }
 
 @media (max-width: 1200px) {
-  .oliviert1_inshadow, .oliviert1_inborder, .oliviert1_incontainer {
+  .oliviert1_inborder, .oliviert1_incontainer {
     mask: none;
     -webkit-mask: none;
   }
@@ -129,3 +132,4 @@
     display: none;
   }
 }
+
