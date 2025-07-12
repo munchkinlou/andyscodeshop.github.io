@@ -3,7 +3,7 @@
 
 .oliviert1_border {
   width: 650px;
-  margin: 20px auto;
+  margin: 20px auto 10px;
   padding: 2px;
   border-radius: 380px 380px 0 0;
   background: linear-gradient(180deg, #A5854C, #F2D49B, #A5854C);
@@ -16,22 +16,21 @@
 	position: relative;
   padding: 740px 40px 40px 40px;
   border-radius: 380px 380px 0 0;
-  background: white
-    url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/acb69457-2e5c-444f-b6f8-7df5d9829ac2/djv5zdv-88ec6fe3-edf9-405d-8497-d381544b08ea.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FjYjY5NDU3LTJlNWMtNDQ0Zi1iNmY4LTdkZjVkOTgyOWFjMlwvZGp2NXpkdi04OGVjNmZlMy1lZGY5LTQwNWQtODQ5Ny1kMzgxNTQ0YjA4ZWEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6h_iqcfo5emiwmwVz9iawBK0IhcLl_CkT4U1OHRBCy8') no-repeat -100px -80px border-box;
-  background-size: 125%;
-  overflow: hidden;
+  background: white;
+  overflow: visible;
   z-index: 1;
 }
 
 .oliviert1_overlay {
   position: absolute;
-  top: -80px;
-  left: -114px;
-  width: calc(100% + 190px);
-  height: 560px;
-  background: url('https://ik.imagekit.io/arl59/Ardent/Shop%20Requests/Victrazte/Olivier/t1_overlay.png?updatedAt=1749187176952') no-repeat top;
-  background-size: 96.5%;
+  top:-40px;
+  left: -117px;
+  width: 130%;
+  height: 800px;
+  background: url('https://ik.imagekit.io/arl59/Ardent/Shop%20Requests/Victrazte/Olivier/olivier-edit2.png?updatedAt=1752337642051') no-repeat center border-box;
+  background-size: 125% contain;
   pointer-events: none;
+  background-color: transparent;
   z-index: 2;
 }
 
